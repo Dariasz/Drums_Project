@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+<div style="table-responsive">
+<h1>Ćwiczenia</h1>
+
+
+  <thead>
+    <!-- <tr>
+      <th>Name</th>
+      <th>Title</th>
+      <th>Content</th>
+      <th colspan="3"></th>
+    </tr> -->
+  </thead>
+
+  <tbody>
+    <% @posts.each do |post| %>
+
+        <div style="background-color:red; margin-bottom:5px; border-radius:15px; padding:5px;">
+
+        <%= post.name %>
+        <%= post.title %></br>
+        <%= post.content %>
+
+        <div style="float:right;">
+        <%= link_to 'Show', post %>
+        <%= link_to 'Edit', edit_post_path(post) %>
+        <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+      </div>
+      </div>
+    <% end %>
+
+  </tbody>
+</table>
+
+<br>
+</div>
+
+<%= link_to 'New Post', new_post_path %>

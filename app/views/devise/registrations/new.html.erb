@@ -1,0 +1,38 @@
+<div class="container">
+
+        <div class="col-lg-6" style="margin-left:24%; margin-right:26%;">
+            <div class="well bs-component" >
+                <h1 style="text-align:center"> Zarejestruj się </h1>
+                <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), wrapper: :horizontal_form, html: {class: 'form-horizontal'}) do |f| %>
+
+                <%= f.error_notification %>
+
+                        <%= f.input :nickname, required: true, autofocus: true, input_html: { class: "form-control",  placeholder: "Nickname" }  %>
+
+                        <%= f.input :imie, required: true, autofocus: true, input_html: { class: "form-control",  placeholder: "Imie" }  %>
+
+                        <%= f.input :nazwisko, required: true, autofocus: true, input_html: { class: "form-control",  placeholder: "Nazwisko" }  %>
+
+                        <%= f.input :email, required: true, autofocus: true, input_html: { class: "form-control",  placeholder: "Email" }  %>
+
+                        <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length), input_html: { class: "form-control",  placeholder: "Password" } %>
+
+                        <%= f.input :password_confirmation, required: true, input_html: { class: "form-control",  placeholder: "Password confirmation" }%>
+
+
+
+
+                        <div style="text-align:right">
+                            <div>
+           </div>
+                <%= f.button :submit, "Zarejestruj się" %>
+              </div>
+
+
+
+                <% end %>
+
+
+            </div>
+    </div>
+</div>

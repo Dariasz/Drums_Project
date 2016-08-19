@@ -1,0 +1,127 @@
+
+<script>
+          var alertovich = function() {
+            console.log("dico");
+            
+          BootstrapDialog.show({
+            title: 'Na pewno ?',
+            message: 'Czy na pewno chcesz usunąć swoje konto na zawsze (to naprawdę bardzo długo) ? ',
+            buttons: [{
+                label: 'Tak',
+                cssClass: 'btn-danger',
+                action: function(dialog) {
+                    $('form').submit();
+                }
+            }, {
+                label: 'Nie, zostanę jeszcze',
+                cssClass: 'btn-default',
+                action: function(dialogItself) {
+                    dialogItself.close();
+                }
+            }]
+        });
+        
+      };
+        $(document).ready(function() {
+          $(window).keydown(function(event){
+          if(event.keyCode == 13) {
+        event.preventDefault();
+      return false;
+    }
+  });
+})
+</script>
+
+
+<div class="container" >
+  
+
+<div class="well bs-component">
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#home" data-toggle="tab">Ty</a></li>
+  <li><a href="#profile" data-toggle="tab">Edycja Profilu</a></li>
+  <li><a href="#advanced" data-toggle="tab">Zaawansowane</a></li>
+</ul>
+<div id="myTabContent" class="tab-content">
+  <div class="tab-pane fade active in" id="home">
+    <div class="jumbotron row" style="width:100%;" >
+      <div style="float:left;" >
+        <h1>Witaj</h1>
+        <h3><%= current_user.imie %></h3>
+        <h3><%= current_user.nazwisko %></h3>
+        <h3><%= current_user.nickname %></h3>
+        <h3><%= current_user.email %></h3>
+            </div>
+      <div style="float:right;">
+          <%= image_tag current_user.avatar.url(:medium), class: 'img-thumbnail'%> 
+        </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="profile">
+    
+    <h2>Edycja profilu</h2>
+    <br>
+    <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+    <%= f.error_notification %>
+    <br>
+  
+      <%= f.file_field :avatar %>
+    <br>
+    <br>
+
+    <%= f.input :nickname %></p>
+    <%= f.input :imie %></p>
+    <%= f.input :nazwisko %></p>
+    
+    <%= f.input :email, required: true %>
+
+    <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+      <p>Currently waiting confirmation for: <%= resource.unconfirmed_email %></p>
+    <% end %>
+
+    <%= f.input :password,:label => 'Hasło', autocomplete: "off", hint: "Zostaw puste jeśli nie chcesz zmieniać", required: false %>
+    <%= f.input :password_confirmation,:label => 'Potwierdz hasło', required: false %>
+    <%= f.input :current_password, :label => 'Aktualne hasło', hint: "Potrzebujemy twojego aktualnego hasła aby zatwierdzić zmiany", required: true %>
+
+
+    <div style="text-align:right">
+    <%= f.button :submit, "Zatwierdź / Aktualijuz" %>
+
+    <% end %>
+    
+    </div>
+    <div style="text-align:center">
+    
+  </div>
+    
+  </div>
+  <div class="tab-pane fade" id="advanced">
+  <div class="jumbotron" style="text-align: center;">
+    <h3 >Usuń konto</h3>
+    <input style="display:none" type="password" name="fakepasswordremembered"/>
+    <% flash.each do |name,msg| %>
+        <%= content_tag :div, msg, class: "alert alert-warning" %>
+    <% end %>
+    <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { autocomplete: "off", method: :delete}, id: 'forma') do |ff| %>
+    <%= ff.error_notification%>
+    <%= ff.label 'Chcesz usunąć swoje konto ?' %>
+    <%= ff.input :password_check, :label => 'Aktualne hasło', hint: "Potrzebujemy twojego aktualnego hasła aby zatwierdzić zmiany", required: true, autocomplete: 'off' %>
+    <%= ff.button :button,type: 'button', onclick: 'alertovich();' do %>
+      Tak chce
+    <% end %>
+    <% end %>
+    </div>
+    </div>
+</div>
+</div>
+
+  
+
+
+
+
+
+
+
+
+</div>

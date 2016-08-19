@@ -1,0 +1,28 @@
+I"t(function() {
+  $(function() {
+    var OneClass, classes, i, len, number, sentence, words;
+    classes = ['.flash_2_1', '.flash_2_2', '.flash_2_3'];
+    number = 1;
+    for (i = 0, len = classes.length; i < len; i++) {
+      OneClass = classes[i];
+      if ($(OneClass).length) {
+        sentence = $(OneClass).text();
+        words = sentence.split(" ");
+        $(OneClass).html('');
+        $.each(words, function() {
+          if (/([A-Z+a-z+ą+ś+ź+ć+ń+ł+ó])/.test(this)) {
+            $(OneClass).append('<n id="WordId' + number + '">' + this + " " + '</n>');
+            return number++;
+          }
+        });
+      }
+    }
+    return setInterval((function() {
+      var drawn;
+      drawn = '#WordId' + Math.floor((Math.random() * number) + 1);
+      return $(drawn).css("color", "#" + ((1 << 24) * Math.random() | 0).toString(16));
+    }), 100);
+  });
+
+}).call(this);
+:ET

@@ -1,0 +1,95 @@
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel"data-interval="0">
+  <!-- Indicators -->
+
+  <ol class="carousel-indicators">
+
+
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+   <span class="maine" style=" padding-top:50px;">
+      <a id="leftarrow"  href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+     <%= link_to 'Skip this shit', pages_O_projekcie_path %>
+
+
+      <a id="rightarrow" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+
+     </span>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox" style="width:70%; margin-right:15%; margin-left:15%; margin-top:2.5%;">
+
+
+    <div class="item active" href="#myCarousel" role="button" data-slide="next" style="width:100%;"  >
+       <img src="<%= image_url 'flash1.jpg' %>"  style="border-radius:20px;" >
+       <div class="cwaine ">
+
+         <h1 class="header1 ">WITAMY  W   </h1>
+        <h1 class="header2 ">DRUMS PROJECT </h1>
+        <h2 class="header3 " style="font-size:25px;">Przekonasz się, że to więcej niż strona </h2>
+      </div>
+
+    </div>
+
+
+
+
+
+     <div class="item" href="#myCarousel" role="button" data-slide="next" >
+       <img src="<%= image_url 'flash2.jpg' %>" alt="..." style="border-radius:20px;">
+
+        <div class="flash_2 " style="margin-right:50%;">
+
+         <h1 class="flash_2_1 animated pulse">Życie zaczyna sie <br><br>od pierwszego bicia serca  </h1>
+        <h1  style="margin-top:10%;" class="flash_2_2">Już wtedy poznałeś co to rytm! </h1>
+        <h2  style="margin-top:10%;" class="flash_2_3"style="font-size:25px;">Zagłąb się  i poznaj tajniki!  </h2>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="item" href="#myCarousel" role="button" data-slide="next" >
+        <img src="<%= image_url 'flash3.jpg' %>" alt="..." style="border-radius:20px;">
+        <div class="cwaine ">
+
+        <h1>Tylko u nas </h1>
+        <h1>Symulator perkusji z pełnym wachlarzem możliwości </h1>
+         <h2 style="font-size:25px;">Odtwarzanie nut z pdf? Tak to możliwe  NO CHYBA NIE</h2>
+      </div>
+    </div>
+
+
+    <div class="item"  role="button">
+      <a href="/pages/O_projekcie?">
+       <img src="<%= image_url 'flash4.jpg' %>" alt="..." style="border-radius:20px;">
+       </a>
+       <div class="cwaine ">
+
+        <h1> No to zaczynamy. Masz ostatnią szansę, później już nie będzie odwrotu. <strong> 404 Odwrót not found </strong></h1>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Left and right controls -->
+
+
+
+</div>

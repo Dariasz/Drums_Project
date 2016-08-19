@@ -1,0 +1,9 @@
+I"“(function() {
+  $(function() {
+    if ($('#noticeid').length) {
+      return $('#noticeid').delay(2000).slideUp(1000);
+    }
+  });
+
+}).call(this);
+:ET

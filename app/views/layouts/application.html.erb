@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+
+        <title>DrumsProject</title>
+        <%= csrf_meta_tags %>
+
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/css/bootstrap-dialog.min.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js"></script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+        <style>
+            #view-source {
+                position: fixed;
+                display: block;
+                right: 0;
+                bottom: 0;
+                margin-right: 40px;
+                margin-bottom: 40px;
+                z-index: 900;
+              }
+        </style>
+    </head>
+    <body>
+        <% if notice %>
+        <div class="row alert alert-success alert-dismissible" role="alert" id="noticeid">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <strong>Wiadomość:
+            </strong><%= notice %>
+        </div>
+        <%end%>
+
+        <%= render 'layouts/navbar'   %>
+
+        <%=render 'layouts/banner' %>
+
+        <div style="margin-top:15px;">
+            <%= yield %>
+        </div>
+
+        <%= render 'layouts/footer' %>
+
+    </body>
+</html>

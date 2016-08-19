@@ -1,0 +1,29 @@
+<div class="col-lg-6" style="float:left;">
+    <div class="well bs-component" >
+        <h2>Hmm... Zapomniało się hasła ?</h2>
+
+        <%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+        <%= f.error_notification %>
+
+        <%= f.input :email, required: true, autofocus: true %>
+
+        <%= f.button :submit, "Przypomnij" %>
+
+        <% end %>
+      </br>
+      <div style="text-align:right">
+        <%= link_to new_user_session_path do %>
+        <button class="btn btn-default">
+          Zaloguj się
+        </button>
+        <%end%>
+        <%= link_to new_user_registration_path do %>
+        <button class="btn btn-default">
+          Zarejestruj się
+        </button>
+</div>
+
+        <%end%>
+
+    </div>
+</div>

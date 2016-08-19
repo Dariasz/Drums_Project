@@ -1,0 +1,46 @@
+
+
+
+
+    <a href="#" data-toggle="modal" data-target="#login-modal">Zaloguj się</a>
+
+
+
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+          <div class="modal-dialog">
+            <div class="loginmodal-container">
+              <h1 style="margin-bottom:25px;">Zaloguj się</h1>
+
+
+              <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+              <%= f.error_notification %>
+              <%= f.input :login ,:label => 'Nickname lub email', required: true, autofocus: true, input_html: { class: "form-control",} %>
+              <%= f.input :password,:label => 'Hasło', required: true %>
+              <%= f.input :remember_me,:label => 'Zapamiętaj mnie', as: :boolean if devise_mapping.rememberable? %>
+              <%= f.button :submit, "Zaloguj się" %>
+                   <%end%>
+
+                <%= link_to new_user_password_path do %>
+
+                    <span>Zapomniałeś hasła?</span>
+
+                <%end%>
+
+
+
+
+                    <%=link_to new_user_registration_path do %>
+
+                    <span style="margin-left:3.5em;">Załóż konto</span>
+
+                  <%end%>
+
+
+
+
+
+
+            </div>
+        </div>
+      </div>
