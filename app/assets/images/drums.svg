@@ -118,7 +118,7 @@
 
 
 
-<g onclick="alert('Uderzyłeś w werbel')">
+<g onclick="drums.play('a')">
 	<defs>
 		<rect id="SVGID_47_" width="569.5" height="413.5"/>
 	</defs>
@@ -1028,7 +1028,7 @@
 	</clipPath>
 	<circle clip-path="url(#SVGID_128_)" fill="none" stroke="#000000" stroke-width="0.25" cx="394.739" cy="78.647" r="17.579"/>
 </g>
-<g>
+<g id='sample_1'>
 	<defs>
 		<path id="SVGID_6_" d="M4.811,193.398c0,28.438,23.488,51.494,52.458,51.494c28.97,0,52.456-23.056,52.456-51.494
 			c0-28.439-23.486-51.495-52.456-51.495C28.299,141.903,4.811,164.959,4.811,193.398"/>
