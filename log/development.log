@@ -4564,3 +4564,3005 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 430ms (Views: 418.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-08-25 16:04:48 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/appWithoutBannerAndNavbar
+  Rendered pages/index.html.erb within layouts/appWithoutBannerAndNavbar (2655.1ms)
+Completed 200 OK in 3549ms (Views: 3515.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/O_projekcie" for 127.0.0.1 at 2016-08-25 16:05:17 +0200
+Processing by PagesController#O_projekcie as HTML
+  Rendering pages/O_projekcie.html.erb within layouts/application
+  Rendered pages/O_projekcie.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_login.html.erb (324.2ms)
+  Rendered layouts/_navbar.html.erb (344.5ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 592ms (Views: 553.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2016-08-25 16:05:28 +0200
+Processing by Devise::PasswordsController#new as HTML
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/passwords/new.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_login.html.erb (9.1ms)
+  Rendered layouts/_navbar.html.erb (13.2ms)
+  Rendered layouts/_banner.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 197ms (Views: 142.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/O_projekcie" for 127.0.0.1 at 2016-08-25 16:05:33 +0200
+Processing by PagesController#O_projekcie as HTML
+  Rendering pages/O_projekcie.html.erb within layouts/application
+  Rendered pages/O_projekcie.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_login.html.erb (8.0ms)
+  Rendered layouts/_navbar.html.erb (12.7ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 91ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:05:40 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_login.html.erb (13.3ms)
+  Rendered layouts/_navbar.html.erb (17.5ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 105ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:13:25 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_login.html.erb (12.9ms)
+  Rendered layouts/_navbar.html.erb (18.8ms)
+  Rendered layouts/_banner.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 118ms (Views: 116.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:13:25 +0200
+Processing by PagesController#Symulator as */*
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_login.html.erb (7.4ms)
+  Rendered layouts/_navbar.html.erb (13.8ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 90ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:14:23 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_login.html.erb (7.5ms)
+  Rendered layouts/_navbar.html.erb (11.6ms)
+  Rendered layouts/_banner.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:15:13 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_login.html.erb (7.0ms)
+  Rendered layouts/_navbar.html.erb (10.7ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 95ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:15:52 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_login.html.erb (9.3ms)
+  Rendered layouts/_navbar.html.erb (14.4ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 92ms (Views: 89.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:16:00 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_login.html.erb (9.6ms)
+  Rendered layouts/_navbar.html.erb (13.2ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 81ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:16:07 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_login.html.erb (9.5ms)
+  Rendered layouts/_navbar.html.erb (14.6ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 80ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:16:08 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_login.html.erb (8.1ms)
+  Rendered layouts/_navbar.html.erb (11.9ms)
+  Rendered layouts/_banner.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 80ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:16:41 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_login.html.erb (6.8ms)
+  Rendered layouts/_navbar.html.erb (10.4ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 83ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:16:50 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_login.html.erb (10.8ms)
+  Rendered layouts/_navbar.html.erb (15.0ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 97ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:17:00 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_login.html.erb (8.1ms)
+  Rendered layouts/_navbar.html.erb (11.7ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:18:48 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (213.6ms)
+Completed 500 Internal Server Error in 218ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pages' for #<#<Class:0x007f5ef84d10f8>:0x000000035c9880>):
+    2:     <div class="container">
+    3:     <div class="jumbotron">
+    4: 
+    5:       <%=render pages/svg %>
+    6:       
+    7: 
+    8:     </div>
+  
+app/views/pages/Symulator.html.erb:5:in `_app_views_pages__ymulator_html_erb___866016464680190542_28233280'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.9ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.5ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:19:25 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (3.8ms)
+  Rendered pages/Symulator.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_login.html.erb (19.5ms)
+  Rendered layouts/_navbar.html.erb (24.8ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 126ms (Views: 124.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:24:22 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (5.3ms)
+  Rendered pages/Symulator.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_login.html.erb (12.9ms)
+  Rendered layouts/_navbar.html.erb (19.7ms)
+  Rendered layouts/_banner.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:29:31 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (3.6ms)
+  Rendered pages/Symulator.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_login.html.erb (8.5ms)
+  Rendered layouts/_navbar.html.erb (12.7ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 87ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:29:43 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (4.3ms)
+  Rendered pages/Symulator.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_login.html.erb (7.9ms)
+  Rendered layouts/_navbar.html.erb (11.9ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 84ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:31:43 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (3.2ms)
+  Rendered pages/Symulator.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_login.html.erb (7.1ms)
+  Rendered layouts/_navbar.html.erb (10.8ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 79ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:38:03 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (3.5ms)
+  Rendered pages/Symulator.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_login.html.erb (7.1ms)
+  Rendered layouts/_navbar.html.erb (11.0ms)
+  Rendered layouts/_banner.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 123ms (Views: 121.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:38:49 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (4.4ms)
+  Rendered pages/Symulator.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_login.html.erb (7.5ms)
+  Rendered layouts/_navbar.html.erb (11.1ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 100ms (Views: 98.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:54:11 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (4.6ms)
+  Rendered pages/Symulator.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_login.html.erb (7.7ms)
+  Rendered layouts/_navbar.html.erb (11.1ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 82ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:55:00 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (4.5ms)
+  Rendered pages/Symulator.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_login.html.erb (6.8ms)
+  Rendered layouts/_navbar.html.erb (10.1ms)
+  Rendered layouts/_banner.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 87ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:55:39 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (3.3ms)
+  Rendered pages/Symulator.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_login.html.erb (5.9ms)
+  Rendered layouts/_navbar.html.erb (9.1ms)
+  Rendered layouts/_banner.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:56:53 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (4.6ms)
+  Rendered pages/Symulator.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_login.html.erb (9.2ms)
+  Rendered layouts/_navbar.html.erb (13.8ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 92ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:57:41 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (3.8ms)
+  Rendered pages/Symulator.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_login.html.erb (6.6ms)
+  Rendered layouts/_navbar.html.erb (9.9ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 92ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:57:44 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (2.7ms)
+  Rendered pages/Symulator.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_login.html.erb (7.1ms)
+  Rendered layouts/_navbar.html.erb (11.0ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 75.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/O_projekcie" for 127.0.0.1 at 2016-08-25 16:57:47 +0200
+Processing by PagesController#O_projekcie as HTML
+  Rendering pages/O_projekcie.html.erb within layouts/application
+  Rendered pages/O_projekcie.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_login.html.erb (6.5ms)
+  Rendered layouts/_navbar.html.erb (10.1ms)
+  Rendered layouts/_banner.html.erb (11.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 79ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:57:49 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (2.9ms)
+  Rendered pages/Symulator.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_login.html.erb (10.3ms)
+  Rendered layouts/_navbar.html.erb (14.7ms)
+  Rendered layouts/_banner.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 84ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:57:50 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (3.3ms)
+  Rendered pages/Symulator.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_login.html.erb (7.2ms)
+  Rendered layouts/_navbar.html.erb (10.6ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 80ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:58:01 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (4.5ms)
+  Rendered pages/Symulator.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_login.html.erb (6.4ms)
+  Rendered layouts/_navbar.html.erb (9.7ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 90ms (Views: 88.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/O_projekcie" for 127.0.0.1 at 2016-08-25 16:58:06 +0200
+Processing by PagesController#O_projekcie as HTML
+  Rendering pages/O_projekcie.html.erb within layouts/application
+  Rendered pages/O_projekcie.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_login.html.erb (8.6ms)
+  Rendered layouts/_navbar.html.erb (12.6ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 89ms (Views: 87.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 16:58:12 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (3.5ms)
+  Rendered pages/Symulator.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_login.html.erb (6.7ms)
+  Rendered layouts/_navbar.html.erb (10.0ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 82ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:10:19 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (4.3ms)
+  Rendered pages/Symulator.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_login.html.erb (8.9ms)
+  Rendered layouts/_navbar.html.erb (12.7ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 95ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-08-25 17:10:25 +0200
+Processing by RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (13.1ms)
+  Rendered layouts/_login.html.erb (8.9ms)
+  Rendered layouts/_navbar.html.erb (15.5ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 108ms (Views: 106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:10:38 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (3.0ms)
+  Rendered pages/Symulator.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_login.html.erb (9.5ms)
+  Rendered layouts/_navbar.html.erb (13.7ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:12:26 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (2.8ms)
+  Rendered pages/Symulator.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_login.html.erb (8.4ms)
+  Rendered layouts/_navbar.html.erb (12.8ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 86ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:12:39 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg.erb (2.8ms)
+  Rendered pages/Symulator.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_login.html.erb (7.1ms)
+  Rendered layouts/_navbar.html.erb (10.8ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:15:53 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (235.1ms)
+Completed 500 Internal Server Error in 238ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `_svg' for #<#<Class:0x007f5ef84d10f8>:0x007f5f0418e6a0>):
+    2:     <div class="container">
+    3:     <div class="jumbotron" style="text-align:center">
+    4: 
+    5:       <%=image_tag _svg %>
+    6: 
+    7:       <function>
+    8: 
+  
+app/views/pages/Symulator.html.erb:5:in `_app_views_pages__ymulator_html_erb___866016464680190542_70023033681940'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.6ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:16:41 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_login.html.erb (6.4ms)
+  Rendered layouts/_navbar.html.erb (9.6ms)
+  Rendered layouts/_banner.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/pages/svg" for 127.0.0.1 at 2016-08-25 17:16:42 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/images/pages/svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (35.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.7ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.2ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:17:08 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_login.html.erb (7.3ms)
+  Rendered layouts/_navbar.html.erb (11.3ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 79ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/pages/svg" for 127.0.0.1 at 2016-08-25 17:17:09 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/images/pages/svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (11.4ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (53.1ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:17:17 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_login.html.erb (7.7ms)
+  Rendered layouts/_navbar.html.erb (11.3ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 80ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/pages/drums.svg" for 127.0.0.1 at 2016-08-25 17:17:17 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/images/pages/drums.svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (20.0ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.3ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:17:34 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_login.html.erb (9.8ms)
+  Rendered layouts/_navbar.html.erb (15.6ms)
+  Rendered layouts/_banner.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 89ms (Views: 88.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/pages/drums.svg" for 127.0.0.1 at 2016-08-25 17:17:34 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/images/pages/drums.svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (12.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.3ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:18:02 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_login.html.erb (9.4ms)
+  Rendered layouts/_navbar.html.erb (13.8ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 89ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/drums.svg" for 127.0.0.1 at 2016-08-25 17:18:03 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/drums.svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (40.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.3ms)
+Started GET "/pages/drums.svg" for 127.0.0.1 at 2016-08-25 17:18:03 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/drums.svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (12.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.4ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:19:22 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (3268.3ms)
+  Rendered layouts/_login.html.erb (9.1ms)
+  Rendered layouts/_navbar.html.erb (13.9ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3482ms (Views: 3480.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:20:18 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_login.html.erb (8.1ms)
+  Rendered layouts/_navbar.html.erb (11.4ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 155ms (Views: 153.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/O_projekcie" for 127.0.0.1 at 2016-08-25 17:20:34 +0200
+Processing by PagesController#O_projekcie as HTML
+  Rendering pages/O_projekcie.html.erb within layouts/application
+  Rendered pages/O_projekcie.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_login.html.erb (7.3ms)
+  Rendered layouts/_navbar.html.erb (11.3ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:20:44 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_login.html.erb (7.7ms)
+  Rendered layouts/_navbar.html.erb (12.2ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 79ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:23:01 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_login.html.erb (7.2ms)
+  Rendered layouts/_navbar.html.erb (10.9ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 85ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-08-25 17:23:07 +0200
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (10.5ms)
+  Rendered layouts/_login.html.erb (8.2ms)
+  Rendered layouts/_navbar.html.erb (12.1ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 130ms (Views: 89.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:23:09 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_login.html.erb (9.1ms)
+  Rendered layouts/_navbar.html.erb (13.8ms)
+  Rendered layouts/_banner.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 115ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:23:42 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/dariasz/Pulpit/Drums_Project/app/views/pages/Symulator.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+...nd=(image_tag 'drums.svg' style="width:100%;");@output_buffe...
+...                               ^):
+  
+app/views/pages/Symulator.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.8ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.3ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:24:04 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/dariasz/Pulpit/Drums_Project/app/views/pages/Symulator.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+...nd=(image_tag 'drums.svg' style:"width:100%;");@output_buffe...
+...                               ^):
+  
+app/views/pages/Symulator.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.9ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.2ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:24:20 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/dariasz/Pulpit/Drums_Project/app/views/pages/Symulator.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+...nd=(image_tag 'drums.svg' style:"width:100%");@output_buffer...
+...                               ^):
+  
+app/views/pages/Symulator.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.0ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:24:40 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_login.html.erb (7.7ms)
+  Rendered layouts/_navbar.html.erb (11.5ms)
+  Rendered layouts/_banner.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 84ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:25:45 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (22.9ms)
+  Rendered layouts/_login.html.erb (7.4ms)
+  Rendered layouts/_navbar.html.erb (11.0ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 110ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:29:49 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/dariasz/Pulpit/Drums_Project/app/views/pages/Symulator.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+...nd=(image_tag 'drums.svg' style="width:100%;");@output_buffe...
+...                               ^):
+  
+app/views/pages/Symulator.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.1ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:30:01 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg (4.8ms)
+  Rendered pages/Symulator.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_login.html.erb (7.3ms)
+  Rendered layouts/_navbar.html.erb (11.1ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 81ms (Views: 79.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:32:14 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg (3.6ms)
+  Rendered pages/Symulator.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_login.html.erb (17.9ms)
+  Rendered layouts/_navbar.html.erb (21.2ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 86ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/svg" for 127.0.0.1 at 2016-08-25 17:32:15 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (16.0ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (55.7ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:32:17 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg (5.3ms)
+  Rendered pages/Symulator.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_login.html.erb (7.1ms)
+  Rendered layouts/_navbar.html.erb (10.9ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 85ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/svg" for 127.0.0.1 at 2016-08-25 17:32:18 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (10.2ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.7ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:32:49 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/_svg (3.6ms)
+  Rendered pages/Symulator.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_login.html.erb (7.3ms)
+  Rendered layouts/_navbar.html.erb (10.9ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 77ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/svg" for 127.0.0.1 at 2016-08-25 17:32:50 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (10.7ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.7ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:33:29 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_login.html.erb (8.5ms)
+  Rendered layouts/_navbar.html.erb (23.7ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 102ms (Views: 100.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/svg" for 127.0.0.1 at 2016-08-25 17:33:29 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (11.8ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.7ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:33:40 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_login.html.erb (8.3ms)
+  Rendered layouts/_navbar.html.erb (12.3ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/svg" for 127.0.0.1 at 2016-08-25 17:33:41 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (11.4ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.5ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:33:46 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_login.html.erb (7.5ms)
+  Rendered layouts/_navbar.html.erb (11.2ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/_svg" for 127.0.0.1 at 2016-08-25 17:33:47 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/_svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (11.4ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.9ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:33:59 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_login.html.erb (10.0ms)
+  Rendered layouts/_navbar.html.erb (13.9ms)
+  Rendered layouts/_banner.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/_svg" for 127.0.0.1 at 2016-08-25 17:34:00 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/_svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (14.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (44.7ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:34:15 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_login.html.erb (7.7ms)
+  Rendered layouts/_navbar.html.erb (11.4ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 81ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/_svg" for 127.0.0.1 at 2016-08-25 17:34:16 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/_svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (17.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (52.1ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:34:30 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_login.html.erb (8.1ms)
+  Rendered layouts/_navbar.html.erb (12.0ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/svg" for 127.0.0.1 at 2016-08-25 17:34:31 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (12.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.5ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:34:31 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_login.html.erb (7.6ms)
+  Rendered layouts/_navbar.html.erb (11.2ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 85ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/svg" for 127.0.0.1 at 2016-08-25 17:34:32 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (11.8ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.9ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:38:02 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_login.html.erb (8.4ms)
+  Rendered layouts/_navbar.html.erb (12.3ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 84ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/svg" for 127.0.0.1 at 2016-08-25 17:38:03 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/svg"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (11.6ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.1ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:40:45 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (219.6ms)
+Completed 500 Internal Server Error in 223ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `drums' for #<#<Class:0x007f5ef84d10f8>:0x007f5efa7bfc68>):
+    16: 
+    17: 
+    18: 
+    19:       <object type="image/svg+xml" data="<%=image url drums%>" class="drums" style="width:100%;">
+    20: 
+    21:       </object>
+    22: 
+  
+app/views/pages/Symulator.html.erb:19:in `_app_views_pages__ymulator_html_erb___866016464680190542_70022953042720'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.4ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.3ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:40:58 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (252.5ms)
+Completed 500 Internal Server Error in 257ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `drums' for #<#<Class:0x007f5ef84d10f8>:0x007f5ef08d8370>):
+    16: 
+    17: 
+    18: 
+    19:       <object type="image/svg+xml" data="<%=image url drums.svg%>" class="drums" style="width:100%;">
+    20: 
+    21:       </object>
+    22: 
+  
+app/views/pages/Symulator.html.erb:19:in `_app_views_pages__ymulator_html_erb___866016464680190542_70022869731340'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.8ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.1ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:41:13 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (128.7ms)
+Completed 500 Internal Server Error in 136ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `url' for #<#<Class:0x007f5ef84d10f8>:0x007f5ee098f1e8>
+Did you mean?  url_for
+               url_field
+               url_encode
+               url_to_font
+               url_options
+               url_to_audio
+               url_to_video
+               url_to_image
+               url_to_asset
+               url_field_tag
+               url_to_stylesheet
+               url_to_javascript
+               u
+               URI):
+    16: 
+    17: 
+    18: 
+    19:       <object type="image/svg+xml" data="<%=image url 'drums.svg'%>" class="drums" style="width:100%;">
+    20: 
+    21:       </object>
+    22: 
+  
+app/views/pages/Symulator.html.erb:19:in `_app_views_pages__ymulator_html_erb___866016464680190542_70022735888060'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.4ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:41:22 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_login.html.erb (8.0ms)
+  Rendered layouts/_navbar.html.erb (11.5ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 89ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:42:07 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_login.html.erb (7.9ms)
+  Rendered layouts/_navbar.html.erb (11.6ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 80ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:51:53 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_login.html.erb (10.8ms)
+  Rendered layouts/_navbar.html.erb (16.3ms)
+  Rendered layouts/_banner.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 110ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 17:52:39 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (26.2ms)
+  Rendered layouts/_login.html.erb (6.9ms)
+  Rendered layouts/_navbar.html.erb (10.4ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 129ms (Views: 127.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:01:42 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 1834ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'keyboard' with type 'application/javascript'
+Checked in these paths: 
+  /home/dariasz/Pulpit/Drums_Project/app/assets/channels
+  /home/dariasz/Pulpit/Drums_Project/app/assets/config
+  /home/dariasz/Pulpit/Drums_Project/app/assets/images
+  /home/dariasz/Pulpit/Drums_Project/app/assets/javascripts
+  /home/dariasz/Pulpit/Drums_Project/app/assets/stylesheets
+  /home/dariasz/Pulpit/Drums_Project/vendor/assets/javascripts
+  /home/dariasz/Pulpit/Drums_Project/vendor/assets/stylesheets
+  /home/dariasz/.rvm/gems/ruby-2.3.1/gems/bootswatch-rails-3.3.5/vendor/assets/stylesheets
+  /home/dariasz/.rvm/gems/ruby-2.3.1/gems/animate-rails-1.0.10/app/assets/stylesheets
+  /home/dariasz/.rvm/gems/ruby-2.3.1/gems/jquery-rails-4.1.1/vendor/assets/javascripts
+  /home/dariasz/.rvm/gems/ruby-2.3.1/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actioncable-5.0.0/lib/assets/compiled
+  /home/dariasz/.rvm/gems/ruby-2.3.1/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /home/dariasz/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.6/assets/stylesheets
+  /home/dariasz/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.6/assets/javascripts
+  /home/dariasz/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.6/assets/fonts
+  /home/dariasz/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.6/assets/images):
+     6:         <%= csrf_meta_tags %>
+     7: 
+     8:         <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:         <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/css/bootstrap-dialog.min.css">
+    11:         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js"></script>
+    12:         <meta charset="utf-8">
+  
+app/assets/javascripts/application.js:16
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__4168309419583130403_70022733902160'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (20.6ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.7ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:02:20 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_login.html.erb (9.2ms)
+  Rendered layouts/_navbar.html.erb (13.0ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 191ms (Views: 187.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:03:58 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_login.html.erb (7.6ms)
+  Rendered layouts/_navbar.html.erb (11.6ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 81ms (Views: 79.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:05:04 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_login.html.erb (9.1ms)
+  Rendered layouts/_navbar.html.erb (13.0ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 92ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:05:48 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_login.html.erb (8.9ms)
+  Rendered layouts/_navbar.html.erb (13.1ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 87ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:05:54 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_login.html.erb (7.4ms)
+  Rendered layouts/_navbar.html.erb (10.8ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 77ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:06:56 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (610.7ms)
+  Rendered layouts/_login.html.erb (279.7ms)
+  Rendered layouts/_navbar.html.erb (287.7ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1073ms (Views: 1043.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:08:00 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (15.7ms)
+  Rendered layouts/_login.html.erb (10.3ms)
+  Rendered layouts/_navbar.html.erb (14.8ms)
+  Rendered layouts/_banner.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 131ms (Views: 129.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:09:02 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_login.html.erb (9.0ms)
+  Rendered layouts/_navbar.html.erb (13.1ms)
+  Rendered layouts/_banner.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 114ms (Views: 112.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:09:42 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_login.html.erb (12.3ms)
+  Rendered layouts/_navbar.html.erb (17.5ms)
+  Rendered layouts/_banner.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 110ms (Views: 108.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:11:59 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_login.html.erb (8.4ms)
+  Rendered layouts/_navbar.html.erb (12.6ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 93ms (Views: 91.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:13:27 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_login.html.erb (7.1ms)
+  Rendered layouts/_navbar.html.erb (10.8ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 78ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:15:41 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_login.html.erb (13.7ms)
+  Rendered layouts/_navbar.html.erb (18.3ms)
+  Rendered layouts/_banner.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 117ms (Views: 115.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:16:09 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_login.html.erb (8.8ms)
+  Rendered layouts/_navbar.html.erb (12.9ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 95ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:19:09 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (533.1ms)
+  Rendered layouts/_login.html.erb (155.8ms)
+  Rendered layouts/_navbar.html.erb (167.8ms)
+  Rendered layouts/_banner.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 929ms (Views: 913.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:20:14 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_login.html.erb (9.0ms)
+  Rendered layouts/_navbar.html.erb (13.2ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 154ms (Views: 152.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:21:16 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_login.html.erb (8.6ms)
+  Rendered layouts/_navbar.html.erb (12.9ms)
+  Rendered layouts/_banner.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 95ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:22:10 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_login.html.erb (8.3ms)
+  Rendered layouts/_navbar.html.erb (12.1ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 83ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:22:33 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_login.html.erb (8.0ms)
+  Rendered layouts/_navbar.html.erb (11.8ms)
+  Rendered layouts/_banner.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 90ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:22:53 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_login.html.erb (10.1ms)
+  Rendered layouts/_navbar.html.erb (14.2ms)
+  Rendered layouts/_banner.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 104ms (Views: 102.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:23:14 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_login.html.erb (9.8ms)
+  Rendered layouts/_navbar.html.erb (14.0ms)
+  Rendered layouts/_banner.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 98ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:24:31 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_login.html.erb (10.0ms)
+  Rendered layouts/_navbar.html.erb (14.9ms)
+  Rendered layouts/_banner.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 107ms (Views: 105.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:24:54 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_login.html.erb (11.2ms)
+  Rendered layouts/_navbar.html.erb (15.7ms)
+  Rendered layouts/_banner.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 95ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:25:04 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_login.html.erb (6.8ms)
+  Rendered layouts/_navbar.html.erb (10.1ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 75ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:25:14 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_login.html.erb (7.2ms)
+  Rendered layouts/_navbar.html.erb (10.5ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 85ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:25:24 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_login.html.erb (11.7ms)
+  Rendered layouts/_navbar.html.erb (15.3ms)
+  Rendered layouts/_banner.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 93ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:26:34 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_login.html.erb (9.4ms)
+  Rendered layouts/_navbar.html.erb (13.8ms)
+  Rendered layouts/_banner.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 92ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:26:50 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_login.html.erb (8.2ms)
+  Rendered layouts/_navbar.html.erb (12.1ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 84ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:27:13 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_login.html.erb (6.3ms)
+  Rendered layouts/_navbar.html.erb (9.7ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 74.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:27:35 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_login.html.erb (6.0ms)
+  Rendered layouts/_navbar.html.erb (9.3ms)
+  Rendered layouts/_banner.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 75ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:29:11 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_login.html.erb (8.9ms)
+  Rendered layouts/_navbar.html.erb (12.9ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 83ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:30:26 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_login.html.erb (7.7ms)
+  Rendered layouts/_navbar.html.erb (11.5ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:31:16 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_login.html.erb (8.0ms)
+  Rendered layouts/_navbar.html.erb (11.7ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 74ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:31:40 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_login.html.erb (7.3ms)
+  Rendered layouts/_navbar.html.erb (11.5ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:32:03 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_login.html.erb (17.5ms)
+  Rendered layouts/_navbar.html.erb (21.3ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 92ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:33:29 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_login.html.erb (8.1ms)
+  Rendered layouts/_navbar.html.erb (11.8ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 86ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:33:45 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_login.html.erb (7.3ms)
+  Rendered layouts/_navbar.html.erb (10.8ms)
+  Rendered layouts/_banner.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 78ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:38:32 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_login.html.erb (11.5ms)
+  Rendered layouts/_navbar.html.erb (17.2ms)
+  Rendered layouts/_banner.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 116ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:41:57 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_login.html.erb (7.0ms)
+  Rendered layouts/_navbar.html.erb (10.4ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 81ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:43:58 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_login.html.erb (10.8ms)
+  Rendered layouts/_navbar.html.erb (15.4ms)
+  Rendered layouts/_banner.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 100ms (Views: 99.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:45:53 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_login.html.erb (8.9ms)
+  Rendered layouts/_navbar.html.erb (13.0ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 92ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:45:55 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_login.html.erb (10.5ms)
+  Rendered layouts/_navbar.html.erb (15.8ms)
+  Rendered layouts/_banner.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 94ms (Views: 92.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:47:35 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_login.html.erb (9.0ms)
+  Rendered layouts/_navbar.html.erb (13.0ms)
+  Rendered layouts/_banner.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 87ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:47:40 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_login.html.erb (10.5ms)
+  Rendered layouts/_navbar.html.erb (14.9ms)
+  Rendered layouts/_banner.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 97ms (Views: 96.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:47:47 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_login.html.erb (7.4ms)
+  Rendered layouts/_navbar.html.erb (10.9ms)
+  Rendered layouts/_banner.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 81ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:48:12 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_login.html.erb (6.8ms)
+  Rendered layouts/_navbar.html.erb (10.8ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 82ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:51:36 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_login.html.erb (7.0ms)
+  Rendered layouts/_navbar.html.erb (10.5ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:52:24 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_login.html.erb (11.8ms)
+  Rendered layouts/_navbar.html.erb (17.7ms)
+  Rendered layouts/_banner.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 122ms (Views: 120.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sounds/a.mp3" for 127.0.0.1 at 2016-08-25 18:52:25 +0200
+Started GET "/sounds/b.mp3" for 127.0.0.1 at 2016-08-25 18:52:25 +0200
+Started GET "/sounds/d.mp3" for 127.0.0.1 at 2016-08-25 18:52:25 +0200
+  
+Started GET "/sounds/e.mp3" for 127.0.0.1 at 2016-08-25 18:52:25 +0200
+Started GET "/sounds/c.mp3" for 127.0.0.1 at 2016-08-25 18:52:25 +0200
+  
+  
+ActionController::RoutingError (No route matches [GET] "/sounds/a.mp3"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/sounds/b.mp3"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/sounds/e.mp3"):
+ActionController::RoutingError (No route matches [GET] "/sounds/c.mp3"):
+ActionController::RoutingError (No route matches [GET] "/sounds/d.mp3"):
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+  
+  
+  
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (11.3ms)
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.2ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (22.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (106.7ms)
+Started GET "/sounds/3.mp3" for 127.0.0.1 at 2016-08-25 18:52:26 +0200
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  
+ActionController::RoutingError (No route matches [GET] "/sounds/3.mp3"):
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+Started GET "/sounds/4.mp3" for 127.0.0.1 at 2016-08-25 18:52:26 +0200
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (11.7ms)
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+ActionController::RoutingError (No route matches [GET] "/sounds/4.mp3"):
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+  
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (12.7ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (118.0ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (12.9ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (171.5ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+Started GET "/sounds/5.mp3" for 127.0.0.1 at 2016-08-25 18:52:26 +0200
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (217.3ms)
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+ActionController::RoutingError (No route matches [GET] "/sounds/5.mp3"):
+Started GET "/sounds/6.mp3" for 127.0.0.1 at 2016-08-25 18:52:26 +0200
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+  
+  
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+ActionController::RoutingError (No route matches [GET] "/sounds/6.mp3"):
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+  
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (12.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (95.9ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (15.7ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+Started GET "/sounds/2.mp3" for 127.0.0.1 at 2016-08-25 18:52:26 +0200
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+ActionController::RoutingError (No route matches [GET] "/sounds/2.mp3"):
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (162.9ms)
+  
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (12.1ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (13.3ms)
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (234.8ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (157.1ms)
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (12.2ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.6ms)
+Started GET "/pages/Symulator" for 127.0.0.1 at 2016-08-25 18:55:55 +0200
+Processing by PagesController#Symulator as HTML
+  Rendering pages/Symulator.html.erb within layouts/application
+  Rendered pages/Symulator.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_login.html.erb (7.4ms)
+  Rendered layouts/_navbar.html.erb (12.1ms)
+  Rendered layouts/_banner.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 100ms (Views: 98.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sounds/b.mp3" for 127.0.0.1 at 2016-08-25 18:55:57 +0200
+Started GET "/sounds/a.mp3" for 127.0.0.1 at 2016-08-25 18:55:57 +0200
+  
+Started GET "/sounds/c.mp3" for 127.0.0.1 at 2016-08-25 18:55:57 +0200
+Started GET "/sounds/d.mp3" for 127.0.0.1 at 2016-08-25 18:55:57 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/sounds/b.mp3"):
+  
+ActionController::RoutingError (No route matches [GET] "/sounds/c.mp3"):
+ActionController::RoutingError (No route matches [GET] "/sounds/a.mp3"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+  
+  
+  
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+ActionController::RoutingError (No route matches [GET] "/sounds/d.mp3"):
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+  
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+Started GET "/sounds/e.mp3" for 127.0.0.1 at 2016-08-25 18:55:57 +0200
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+  
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+ActionController::RoutingError (No route matches [GET] "/sounds/e.mp3"):
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+  
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (12.9ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (12.9ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (14.1ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (10.4ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (205.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (10.0ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (230.0ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (180.6ms)
+Started GET "/sounds/2.mp3" for 127.0.0.1 at 2016-08-25 18:55:57 +0200
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (236.4ms)
+  
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (294.4ms)
+ActionController::RoutingError (No route matches [GET] "/sounds/2.mp3"):
+  
+Started GET "/sounds/4.mp3" for 127.0.0.1 at 2016-08-25 18:55:57 +0200
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+  
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+Started GET "/sounds/5.mp3" for 127.0.0.1 at 2016-08-25 18:55:57 +0200
+ActionController::RoutingError (No route matches [GET] "/sounds/4.mp3"):
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+  
+  
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+ActionController::RoutingError (No route matches [GET] "/sounds/5.mp3"):
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+  
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+Started GET "/sounds/3.mp3" for 127.0.0.1 at 2016-08-25 18:55:57 +0200
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+  
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+ActionController::RoutingError (No route matches [GET] "/sounds/3.mp3"):
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+  
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+Started GET "/sounds/6.mp3" for 127.0.0.1 at 2016-08-25 18:55:57 +0200
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+  
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+ActionController::RoutingError (No route matches [GET] "/sounds/6.mp3"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (12.5ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (17.4ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (36.1ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (11.9ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (263.4ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (263.2ms)
+  Rendered collection of /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (10.9ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (309.2ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendering /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (300.6ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/dariasz/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (336.4ms)
