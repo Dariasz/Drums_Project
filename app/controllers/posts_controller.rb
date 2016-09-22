@@ -1,10 +1,12 @@
 class PostsController < ApplicationController
+  
+  
   before_action :set_post, only: [:show, :edit, :update, :destroy]
-
+  before_action :require_admin, only: [:create, :new,  :edit, :update, :destroy]
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.all
+    @posts = Post.all.reverse
   end
 
   # GET /posts/1
@@ -71,4 +73,6 @@ class PostsController < ApplicationController
     def post_params
       params.require(:post).permit(:name, :title, :content)
     end
+    
+  
 end

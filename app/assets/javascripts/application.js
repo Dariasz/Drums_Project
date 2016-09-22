@@ -12,8 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require jquery
 //= require keyboard.min
+//= require soundjs-0.6.2.min
 
 //= require bootstrap-sprockets
 //= require_tree ./global

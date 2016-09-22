@@ -1,0 +1,3 @@
+$('#user<%= @user.id %>').removeClass("label-info").addClass("label-success").html("true");
+$('#makeadmin<%= @user.id %>').toggle();
+$('#takeadmin<%= @user.id %>').toggle();

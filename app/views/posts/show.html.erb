@@ -1,19 +1,24 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Name:</strong>
-  <%= @post.name %>
-</p>
-
-<p>
-  <strong>Title:</strong>
-  <%= @post.title %>
-</p>
-
-<p>
-  <strong>Content:</strong>
-  <%= @post.content %>
-</p>
-
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+<div class="row">
+  <div class="container">
+    <div class="jumbotron">
+   <div style="float:right;">
+          Dodany: <%= l @post.created_at, format: '%H:%M:%S , %d %B %Y' %>
+    </div>
+    <h1  style="text-align:center">
+      <%= @post.name %>
+    </h1>
+    
+    <h2>
+      <%= @post.title %>
+    </h2>
+    <hr>
+    <p>
+      <%= @post.content %>
+    </p>
+    <%  if require_admin? %>
+    <%= link_to 'Edit', edit_post_path(@post),class: 'btn btn-info btn-sm' %> 
+    <%  end %>
+    <%= link_to 'Powrót do listy postów', posts_path,class: 'btn btn-info btn-sm' %>
+    </div>
+  </div>
+</div>

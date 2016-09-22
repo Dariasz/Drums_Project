@@ -1,17 +1,21 @@
 
-<div  class=" row" style="width:80%; margin-left:10%; margin-right:10%; border-color:red; border-style:solid;">
-
-    <div style="mheight:40%; float:right; width:20%; background-color:blue; border-style:solid; border-color:blue;  ">
 
 
-    </div>
 
-        <div style="float:left; width:70%; margin-left:5%; margin-right:5%; ">
 
+
+
+ <div class="container" style="width:80%; margin-left:10%; margin-right:10%">
+
+
+
+        <div style="float:left; width:50%;">
+            <div class="jumbotron" style="border-radius: 6px;">
             <h1 style="text-align:center;"> Tylko projekt ? </h1>
             <br>
 
-            <p style="margin-right:1em; margin-left:1em;">
+            <p style="">
+                <small>
                 Zaczynając od samego początku. Skąd pomysł i jak się wszystko zaczęło.
               Cała idea powstała w mojej glowie, jednak coś tam jest (tylko chwilowy przebłysk), miała to być tylko strona na zaliczenie do szkoły, ale uznałem że
               niezbyt chce mi się bawić w stylowanie i edytowanie w css . Dlatego wymyśliłem, że napiszę podstawy program, który będzie imitować perkusję,
@@ -23,15 +27,59 @@
                podzielić się z innymi. Drugi facebook ? Dla perkusistów ? Hah chciałbym. Jak i również możliwość nauki przez tą stronę, będą tutaj zamieszczane
                ćwiczenia, różnorodne rytmy od najprostszych po takie co ja nie umiem zagrać i dopiero się uczę. Każdy na swoim profilu będzie mógł się podzielić
                nad czym aktualnie pracuję, jak mu to wychodzi. dobranoc.
+               </small>
             </p>
 
             </br>
-            Nie ma przecinków o drugiej w nocy to piszę, nie oceniać !.
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
+            <p style="margin-right:1em; margin-left:1em;">Nie ma przecinków o drugiej w nocy to piszę, oceniać jak najbardziej !.</p>
+           
 
+        </div>
     </div>
-</div>
+    
+    
+       
+            
+        <div class="jumbotron" style="width:48%; float:right;">
+            <h1>
+                Najnowszy post 
+            </h1>
+            <small>Dodany: <%= l @post.created_at, format: '%H:%M:%S , %d %B %Y' %></small>
+            <br>
+            <br>
+            <br>
+            <h2  style="text-align:center">
+              <%= @post.name %>
+            </h2>
+            
+            <h3>
+              <%= @post.title %>
+            </h3>
+            <hr>
+            <p>
+              <small><%= truncate @post.content, length: 160 %></small>
+            </p>
+            <p><%= link_to 'Dowiedz się więcej', @post, class: 'btn btn-primary btn-lg' %></p>
+        </div>
+        
+        <div class="jumbotron" style="width:48%; float:right;">
+            <h2>
+                Symulator perkusji
+            </h2>
+            <hr>
+            <h3 >
+              Wersja Alpha już działa
+            </h3>
+            <br>
+            <h4>
+              Wejdź i sprawdź, bez kapi
+            </h4>
+            <br>
+            <p><%= link_to 'Przejdź do symulatora', pages_Symulator_path , class: 'btn btn-primary btn-lg' %></p>
+        </div> 
+        
+        </div>
+   
+
+    
+       

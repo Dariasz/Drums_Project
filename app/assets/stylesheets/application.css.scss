@@ -13,17 +13,18 @@
 	*= require animate
  *= require_self
 	*= require flash
+	*= require jquery-ui
  */
 
 
-
+$font-size-base: 10px;
 $state-success-bg: #99ff99;
 $state-success-text: white;
 
 @import "bootstrap-sprockets";
-@import "bootswatch/darkly/variables";
+@import "bootswatch/slate/variables";
 @import "bootstrap";
-@import "bootswatch/darkly/bootswatch";
+@import "bootswatch/slate/bootswatch";
 @import "main";
 
 

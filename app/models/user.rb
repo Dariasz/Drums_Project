@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  rolify :role_cname => 'Admin'
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
    attr_accessor :login
@@ -13,7 +14,7 @@ class User < ApplicationRecord
          validates_format_of :nickname, with: /^[a-zA-Z0-9_\.]*$/ , :multiline => true 
          validates_uniqueness_of :nickname
          validates :nickname, :presence => true, :uniqueness => { :case_sensitive => false } # etc.
-         has_attached_file :avatar, :styles => { :medium => "300x300>", :thumb => "100x100#", :mini => "50x50#" }, :default_url => ":style/default.png"
+         has_attached_file :avatar, :styles => { :medium => "300x300>", :thumb => "100x100#" }, :default_url => ":style/default.png"
          validates_attachment_content_type :avatar, :content_type => /\Aimage\/.*\Z/
         validates_confirmation_of :password
 

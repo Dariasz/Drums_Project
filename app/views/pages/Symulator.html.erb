@@ -1,61 +1,243 @@
+<div>
 
+    <div class="container" style="width: 90%;">
 
+        <div id="watch" class="jumbotron" style="text-align:center;width:80%;float: left;">
 
+            <object id='drumsSVG' type="image/svg+xml" data="<%=image_url 'drums.svg'%>" class="drums" style="width:100%;"></object>
 
+        </div>
+        <div class="jumbotron" style="width: 18%; float: right;padding: 5px;padding-left: 20px;padding-right: 20px;">
 
+            <div style="float: left;">
+                <h3>Głośność:<n id="amount">60</n>
+                </h3>
+                <div id="slider-vertical" style="height:200px;"></div>
+            </div>
+        </div>
 
-<div >
-
-    <div class="container">
-    <div class="jumbotron" style="text-align:center">
-
-
-
-      <object id='drumsSVG' type="image/svg+xml" data="<%=image_url 'drums.svg'%>" class="drums" style="width:100%;">
-
-      </object>
-
-
-
-
-
-
-    </div>
+        <button onclick="drums.Played()" class="btn btn-default">Default</button>
     </div>
 </div>
 
-<script>
-var drums = {
-  samples: ['a', 'b', 'c', 'd', 'e', '1', '2', '3', '4', '5', '6','7'],
+<script >
 
-  play(drum) {
-    this.sounds[drum].load();
-    return this.sounds[drum].play();
-  },
-  
+    $(function () {
+        $("#slider-vertical").slider({
+            orientation: "vertical",
+            range: "min",
+            min: 0,
+            max: 100,
+            value: 60,
+            slide: function (event, ui) {
+                $("#amount").html(ui.value);
+                drums.setVolume(ui.value);
+            }
+        });
+        $("#amount").val($("#slider-vertical").slider("value"));
+    });
 
-  generateSounds() {
-    this.sounds = this.samples.reduce( function(cache, sample) {
-      cache[sample] = new Audio('/sounds/'+ sample + '.wav');
-      return cache;
-    }, {});
-  },
+    var drums =   {
 
-  bindKeys() {
-    keyboardJS.bind(this.samples, (e) => { this.play(e.key) });
-  },
+        samples: [ 'a','b','c','d','e','1','2','3','4','5','6','7' ],
 
-  bindEvents() {
-    var svg = document.getElementById('drumsSVG');
-    var doc = svg.contentDocument;
-    this.samples.forEach( (sample) => $(doc.getElementById('sample_' + sample)).click(() => drums.play(sample)));
-  }
-}
+        played_samples :[],
+        // pusta tablica do przechowywania zagranych uderzeń
+            // switch miedzy wartościa samples a played_samples
+        Played()
+        {
+          ;
+        },
 
-  document.getElementById('drumsSVG').addEventListener('load', function(){
-      drums.generateSounds();
-      drums.bindEvents();
-      drums.bindKeys();
-  });
+        play(drum) {
+            value: 60,
 
+          this.played_samples.push(drum);
+
+
+            console.log(drum);
+
+
+
+            var svg = document.getElementById('drumsSVG');
+            var doc = svg.contentDocument;
+            switch (drum) {
+                case "!":
+                    var key = "1";
+                    var volume = 1.0;
+                    break;
+
+                case "@":
+                    var key = "2";
+                    var volume = 1.0;
+                    break;
+
+                case "#":
+                    var key = "3";
+                    var volume = 1.0;
+                    break;
+
+                case "$":
+                    var key = "4";
+                    var volume = 1.0;
+                    break;
+
+                case "%":
+                    var key = "5";
+                    var volume = 1.0;
+                    break;
+
+                case "^":
+                    var key = "6";
+                    var volume = 1.0;
+                    break;
+
+                case "&":
+                    var key = "7";
+                    var volume = 1.0;
+                    break;
+
+                case "A":
+                    var key = "a";
+                    var volume = 1.0;
+                    break;
+
+                case "B":
+                    var key = "b";
+                    var volume = 1.0;
+                    break;
+
+                case "C":
+                    var key = "c";
+                    var volume = 1.0;
+                    break;
+
+                case "D":
+                    var key = "d";
+                    var volume = 1.0;
+                    break;
+
+                case "E":
+                    var key = "e";
+                    var volume = 1.5;
+                    break;
+
+                default:
+                    var volume = 0.2;
+                    var key = drum;
+
+            };
+
+
+
+            switch (key) {
+
+                case "1":
+
+                    var gradient = "url(#SVGID_130_)"
+                    break;
+                case '2':
+                    var gradient = "url(#SVGID_106_)"
+                    break;
+                case "3":
+                    var gradient = "url(#SVGID_96_)"
+                    break;
+                case "4":
+                    var gradient = "url(#SVGID_124_)"
+                    break;
+                case "5":
+                    var gradient = "url(#SVGID_112_)"
+                    break;
+                case "6":
+                    var gradient = "url(#SVGID_118_)"
+                    break;
+            }
+
+            function gradients(color, gradiennt) {
+                $(doc.getElementById('sample_' + key + '_animation')).attr("fill", color);
+                let current = createjs.Sound.play('sample_' + key);
+                current.volume = volume;
+                current.addEventListener("complete", function (current) {
+                    $(doc.getElementById('sample_' + key + '_animation')).attr("fill", gradiennt);
+                });
+            }
+
+            if (key.match(/^[a-z]+$/)) {
+
+                if (key == 'e') {
+                    gradients("blue", "url(#SVGID_59_)")
+
+                } else {
+                    gradients("red", "white");
+                }
+
+            } else {
+                gradients("url(#new_grad)", gradient);
+
+            }
+
+        },
+
+        generateSounds() {
+            this.samples.forEach((sample) => {
+                createjs.Sound.registerSound('/sounds/' + sample + '.wav', 'sample_' + sample);
+            });
+        },
+
+        bindKeys() {
+
+
+            let with_z_samples = this.samples.map(c => 'z+ ' + c);
+            keyboardJS.bind(with_z_samples, e => { this.play(e.key)
+
+              console.log("z+" +e.key);
+
+            });
+
+
+
+            // keyboardJS.bind(['a+b', 'a+c', 'a+d', 'a+e'], e => { console.log(e.key) });
+            keyboardJS.bind(this.samples, e => { this.play(e.key) });
+
+
+        },
+
+        bindEvents() {
+            var svg = document.getElementById('drumsSVG');
+            var doc = svg.contentDocument;
+            this.samples.forEach((sample) => $(doc.getElementById('sample_' + sample)).click(() => drums.play(sample)));
+
+        },
+
+        setVolume(amount) {
+            createjs.Sound.volume = amount / 200;
+        },
+
+        ActivateKeyboard() {
+            var svg = document.getElementById('drumsSVG');
+            var doc = svg.contentDocument;
+              keyboardJS.watch(doc);
+        },
+
+
+
+    //  PushToArray(){
+     //
+    //  this.played_samples.push();
+    //           }
+
+    }
+
+
+
+
+
+    document.getElementById('drumsSVG').addEventListener('load', function () {
+        drums.generateSounds();
+        drums.bindEvents();
+        drums.bindKeys();
+        drums.setVolume(60);
+        drums.ActivateKeyboard();
+
+    });
 </script>

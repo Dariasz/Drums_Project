@@ -135,11 +135,11 @@
 
                         </ul>
 
-                        <ul class="nav navbar-nav navbar-right">
+                        <ul class="nav  navbar-nav navbar-right">
 
                             <% if user_signed_in? %>
 
-                    <li class="round-image-50" style="margin-top:2px;"><%= image_tag current_user.avatar.url(:mini) , class: 'img-thumbnail' %></li>
+                    <li class="round-image-50" style="height: 25px;"><%= image_tag current_user.avatar.url(:thumb) , class: 'img-thumbnail', style: 'height: 50px' %></li>
 
                     <li id="5" class="dropdown">
 
@@ -169,15 +169,16 @@
 
                                     <%end%>
                                         </li>
+                                    <% if require_admin? %> 
                                         <li>
+                                    <%=link_to pages_Usersi_path do %>
 
-                                    <%=link_to pages_Symulator_path do %>
-
-                                    Symulator
+                                    Usersi
 
                                     <%end%>
 
                                         </li>
+                                        <% end %>
 
                                     </ul>
                                 </li>

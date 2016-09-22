@@ -1,38 +1,51 @@
-<p id="notice"><%= notice %></p>
-<div style="table-responsive">
-<h1>Ćwiczenia</h1>
-
-
-  <thead>
-    <!-- <tr>
-      <th>Name</th>
-      <th>Title</th>
-      <th>Content</th>
-      <th colspan="3"></th>
-    </tr> -->
-  </thead>
-
-  <tbody>
-    <% @posts.each do |post| %>
-
-        <div style="background-color:red; margin-bottom:5px; border-radius:15px; padding:5px;">
-
-        <%= post.name %>
-        <%= post.title %></br>
-        <%= post.content %>
-
-        <div style="float:right;">
-        <%= link_to 'Show', post %>
-        <%= link_to 'Edit', edit_post_path(post) %>
-        <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+<div class="row">
+    <div class="container" style="width: 80%">
+      <div class="jumbotron" style="padding-top: 10px; padding-bottom: 10px;">
+          <div class="page-header">
+                <div style="float: right;">
+                  <%  if require_admin? %>
+                  <%= link_to 'Nowy post', new_post_path, class: 'btn btn-info btn-lg' %>
+                  <%  end %>
+                </div>
+              <h1>Ćwiczenia <small>       Pomogą Ci w staniu się lepszym</small></h1>
+      
+           </div>
       </div>
+    </div>
+  <div class="container">
+      <div style="table-responsive">
+
+          <tbody>
+            
+            <% @posts.each  do |post| %>
+        <div class="jumbotron">
+            <div style="float:right;">
+              Dodany: <%= l post.created_at, format: '%H:%M:%S , %d %B %Y' %>
+            </div>
+            <h1><%= post.name %></h1>
+            <h3><%= post.title %></h3>
+            <hr>
+            <p><%= truncate post.content, length: 160 %></p>
+            <%  if require_admin? %>
+                  <div style="float:right;">
+                    <p><%= link_to 'Edit', edit_post_path(post), class: 'btn btn-primary btn-sm' %></p>
+                    <p><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger btn-sm' %></p>
+                  </div>
+            <%  end %>
+            <p><%= link_to 'Dowiedz się więcej', post, class: 'btn btn-primary btn-lg' %></p>
+            </div>
+            <% end %>
+        
+          </tbody>
+        </table>
+        <br>
       </div>
-    <% end %>
 
-  </tbody>
-</table>
-
-<br>
+  </div>
 </div>
 
-<%= link_to 'New Post', new_post_path %>
+
+
+
+
+

@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="container" style="width: 95%">
+        <table style="width:100%">
+         <tr>
+            <th>Email</th>
+             <th>Utworzone o</th>
+             <th>Nickname</th>
+             <th>Imie</th>
+             <th>Nazwisko</th>
+             <th>Admin</th>
+            </tr>
+                <% @users.each do |user|  %> 
+            <tr>
+                        <td><%= user.email%></td> 
+                        <td><%= user.created_at%> </td>
+                        <td><%= user.nickname%> </td>
+                        <td><%= user.imie%></td>
+                        <td><%= user.nazwisko%></td>
+                        <td><span id="user<%= user.id%>" class="label <% if user.has_role? :admin %>label-success<%else%>label-info<%end%>"><%= user.has_role? :admin %></span></td>
+                        <td>
+                            <n id="makeadmin<%= user.id%>" style="<% if user.has_role? :admin %>display: none<%else%>display: inline<%end%>"><%= button_to "Make Admin", {action: "make_admin", id: user.id }, method: :put, remote: true ,class: 'btn btn-sm btn-danger' %></n>
+                            <n id="takeadmin<%= user.id%>" style="<% unless user.has_role? :admin %>display: none<%else%>display: inline<%end%>"><%= button_to "Take Admin", {action: "take_admin", id: user.id }, method: :put, remote: true ,class: 'btn btn-sm btn-warning' %></n>
+                        </td>
+
+          </tr>
+                <% end %>
+        </table>
+    </div>
+</div>  
