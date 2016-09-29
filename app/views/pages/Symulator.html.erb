@@ -1,4 +1,5 @@
 <div>
+    <p id="tutaj">Tutaj się powinno pojawaić </p>
 
     <div class="container" style="width: 90%;">
 
@@ -15,9 +16,14 @@
                 <div id="slider-vertical" style="height:200px;"></div>
             </div>
         </div>
+        <div  style="background:red; float:left;">
 
-        <button onclick="drums.Played()" class="btn btn-default">Default</button>
+        <button onclick="drums.playback()" class="btn btn-default">Playback</button>
+
+      </div>
+
     </div>
+
 </div>
 
 <script >
@@ -39,28 +45,52 @@
 
     var drums =   {
 
+          playback(){
+        this.niewiem.forEach( (delay, index) => setTimeout(() => { this.play( this.played_samples[index])}, delay))
+      },
+
+
         samples: [ 'a','b','c','d','e','1','2','3','4','5','6','7' ],
 
         played_samples :[],
-        // pusta tablica do przechowywania zagranych uderzeń
-            // switch miedzy wartościa samples a played_samples
-        Played()
-        {
-          ;
-        },
+
+        time_between_samples :[],
+
+
 
         play(drum) {
+          var svg = document.getElementById('drumsSVG');
+          var doc = svg.contentDocument;
+          var d = new Date ();
+          var time = d.getTime();
+          var time_round= Math.round(time);
+
+          this.time_between_samples.push(time_round);
+
+          var first_element = this.time_between_samples[0];
+
+          this.niewiem = this.time_between_samples.map((t) => t - first_element);
+          console.log(this.niewiem)
+
+
+
+
+
+
             value: 60,
 
           this.played_samples.push(drum);
 
+           console.log(this.played_samples);
+            var stringowane = this.played_samples.toString();
 
-            console.log(drum);
+
+            // console.log(stringowane);
 
 
+            //document.getElementById("tutaj").innerHTML = stringowane;
 
-            var svg = document.getElementById('drumsSVG');
-            var doc = svg.contentDocument;
+
             switch (drum) {
                 case "!":
                     var key = "1";

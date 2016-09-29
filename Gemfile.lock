@@ -38,6 +38,10 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+    acts_as_list (0.8.2)
+      activerecord (>= 3.0)
+    acts_as_tree (2.5.1)
+      activerecord (>= 3.0.0)
     animate-rails (1.0.10)
       rails
     arel (7.0.0)
@@ -76,6 +80,11 @@ GEM
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
+    jazz_model (0.1.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      acts_as_list (>= 0.1.2)
+      acts_as_tree (>= 0.1.1)
     jbuilder (2.5.0)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
@@ -98,6 +107,7 @@ GEM
     mini_portile2 (2.1.0)
     minitest (5.9.0)
     multi_json (1.12.1)
+    music (0.7.0)
     nio4r (1.2.1)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
@@ -197,9 +207,11 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise
+  jazz_model
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  music (~> 0.7.0)
   paperclip (~> 5.0)
   puma (~> 3.0)
   rails (~> 5.0.0)
