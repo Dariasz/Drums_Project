@@ -1,5 +1,6 @@
 <div>
-    <p id="tutaj">Tutaj się powinno pojawaić </p>
+    <p id="tutaj">Tutaj się powinno pojawaić
+    </p>
 
     <div class="container" style="width: 90%;">
 
@@ -16,11 +17,13 @@
                 <div id="slider-vertical" style="height:200px;"></div>
             </div>
         </div>
-        <div  style="background:red; float:left;">
+        <div style="background:red; float:left;">
 
-        <button onclick="drums.playback()" class="btn btn-default">Playback</button>
+            <button onclick="drums.playback()" class="btn btn-default">Playback</button>
+            <button onclick="drums.record()" class="btn btn-default">Record</button>
+            <button onclick="drums.clean()" class="btn btn-default">Clean</button>
 
-      </div>
+        </div>
 
     </div>
 
@@ -43,53 +46,80 @@
         $("#amount").val($("#slider-vertical").slider("value"));
     });
 
-    var drums =   {
+    var drums = {
 
-          playback(){
-        this.niewiem.forEach( (delay, index) => setTimeout(() => { this.play( this.played_samples[index])}, delay))
-      },
+        recording: false,
 
+        record() {
+            this.recording = true;
+        },
 
-        samples: [ 'a','b','c','d','e','1','2','3','4','5','6','7' ],
+        clean() {
+            this.played_samples = [];
+            this.time_between_samples = [];
+            document.getElementById("tutaj").innerHTML = "Usunięte";
 
-        played_samples :[],
+        },
 
-        time_between_samples :[],
+        playback() {
+            this.recording = false;
+            this.niewiem.forEach((delay, index) => setTimeout(() => {
+                if (delay < 300) {
+                    delay = 0;
+                }
+                this.play(this.played_samples[index])
 
+            }, delay))
+        },
 
+        samples: [
+            'a',
+            'b',
+            'c',
+            'd',
+            'e',
+            '1',
+            '2',
+            '3',
+            '4',
+            '5',
+            '6',
+            '7'
+        ],
+
+        played_samples: [],
+
+        time_between_samples: [],
 
         play(drum) {
-          var svg = document.getElementById('drumsSVG');
-          var doc = svg.contentDocument;
-          var d = new Date ();
-          var time = d.getTime();
-          var time_round= Math.round(time);
+            console.log(this.recording);
+            var svg = document.getElementById('drumsSVG');
+            var doc = svg.contentDocument;
+            var d = new Date();
+            var time = d.getTime();
+            var time_round = Math.round(time);
 
-          this.time_between_samples.push(time_round);
+              if (this.recording) {
+            this.time_between_samples.push(time_round);
+            var first_element = this.time_between_samples[0];
+            // console.log(first_element);
 
-          var first_element = this.time_between_samples[0];
+            this.niewiem = this.time_between_samples.map((t) => t - first_element);
+        }
+        console.log(this.niewiem);
 
-          this.niewiem = this.time_between_samples.map((t) => t - first_element);
-          console.log(this.niewiem)
+            if (this.recording) {
+                //this.time_between_samples.push(time_round);
+                this.played_samples.push(drum);
+            }
 
-
-
-
-
-
-            value: 60,
-
-          this.played_samples.push(drum);
-
-           console.log(this.played_samples);
+            // console.log(this.played_samples);
             var stringowane = this.played_samples.toString();
-
 
             // console.log(stringowane);
 
-
-            //document.getElementById("tutaj").innerHTML = stringowane;
-
+            document.getElementById("tutaj").innerHTML = stringowane;
+            value : 60;
 
             switch (drum) {
                 case "!":
@@ -158,8 +188,6 @@
 
             };
 
-
-
             switch (key) {
 
                 case "1":
@@ -216,19 +244,18 @@
 
         bindKeys() {
 
-
             let with_z_samples = this.samples.map(c => 'z+ ' + c);
-            keyboardJS.bind(with_z_samples, e => { this.play(e.key)
+            keyboardJS.bind(with_z_samples, e => {
+                this.play(e.key)
 
-              console.log("z+" +e.key);
+                console.log("z+" + e.key);
 
             });
 
-
-
             // keyboardJS.bind(['a+b', 'a+c', 'a+d', 'a+e'], e => { console.log(e.key) });
-            keyboardJS.bind(this.samples, e => { this.play(e.key) });
-
+            keyboardJS.bind(this.samples, e => {
+                this.play(e.key)
+            });
 
         },
 
@@ -246,21 +273,14 @@
         ActivateKeyboard() {
             var svg = document.getElementById('drumsSVG');
             var doc = svg.contentDocument;
-              keyboardJS.watch(doc);
+            keyboardJS.watch(doc);
         },
 
-
-
-    //  PushToArray(){
-     //
-    //  this.played_samples.push();
-    //           }
+        //  PushToArray(){
+        //
+        //  this.played_samples.push();           }
 
     }
-
-
-
-
 
     document.getElementById('drumsSVG').addEventListener('load', function () {
         drums.generateSounds();
